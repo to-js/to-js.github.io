@@ -1,0 +1,58 @@
+.masthead {
+  position: relative;
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  //background: linear-gradient(90deg, fade-out($black, 0.95) 0%, fade-out($black, 0.95) 100%), url('../img/bg-masthead.jpg');
+  background: url('../img/bg-masthead.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+
+  .logo {
+    width: 240px;
+    height: 240px
+  }
+
+  .logo-row {
+    margin-bottom: 5rem;
+  }
+
+  h3 {
+    color: white;
+    margin-top: 2rem;
+  }
+
+  .service-icon-header {
+    background-color: $primary;
+    color: $black;
+    height: 6rem;
+    width: 6rem;
+    display: block;
+    line-height: 2.25rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    i {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 0.5rem;
+    }
+  }
+}
